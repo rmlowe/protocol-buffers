@@ -1,8 +1,9 @@
 syntax = "proto3";
 
-import "4-exercises-solutions/street.proto";
-
 package building;
+
+// remember to use the full path from the root of the project
+import "4-exercises-solutions/4-imports-with-packages/street.proto";
 
 message Building {
   string building_name = 1;
